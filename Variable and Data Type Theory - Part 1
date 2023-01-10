@@ -1,0 +1,96 @@
+Hey What is Software?
+-----
+
+Processing data
+
+
+I) Variable / Data type
+
+1. What is Variable?
+	
+	> Its like a container to store the information or value or data.
+
+Whole data, Decimal data, Dinesh Kumar, true/false, 'a'
+INTEGER      FLOAT          STRING       BOOLEAN     CHARACTER
+
+2. What is Data type?
+
+	Defines the type of data to be stored in the variable.
+
+Water(data) --> Bucket (Variable) --> Platic / Iron/ Aluminum (data type)
+
+Head set (Data) --> Pouch (Variable) --> Leadher / Plastic (DT)
+
+
+Data types classification:-
+---------
+
+1. PRIMITIVE (8)
+
+	Define the range
+
+	I) Numerical type
+
+		a. Integral type - byte, short, int, long
+		b. Floating type - float, double
+		c. Character type - char
+
+	II) Boolean type
+		a. boolean type - boolean
+
+Numbers...
+
+-2^(n-1) to 2^(n-1) -1 
+
+n - number of bits 
+
+byte - 1 Byte - 8 bits - -128 to 127
+short - 2 Byte - 16 bits - -32768 to 32767
+int - 4 Byte - 32 bits - -2147483648 to 2147483647
+long - 8 Byte - 64 bits -  -922337203 6854775808 to  922337203 6854775807
+
+Decimal...
+
+float - 4 Byte - 32 bits
+
+after dot 7 digit
+
+double - 8 Byte - 64 bits
+
+after dot 15 digit
+
+-------
+
+char - 2 Byte - 16 bits
+
+Sigle digit
+
+boolean - N/A (1 bit)
+
+true or false
+
+2. NON-PRIMITIVE
+
+	Not able to define the range
+
+STRING
+INTERFACe
+CLASS
+ENUM
+OBJECT etc...
+
+
+/*
+
+byte, short, int, long -> 0
+float, double -> 0.0
+char --> \u0000
+boolean --> false
+String --> null
+
+*/
+
+
+Data type
+
+name, size, range, default value.
