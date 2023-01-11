@@ -1,0 +1,73 @@
+Eclipse
+
+	Project name 
+		1. Pascal Convention (First letter of each word should be an upper case)
+		2. Should not allow any spaces between the words
+		3. Should not allow any special charatcers
+
+		Eg : MyJavaProject
+
+		Project, Class, Interface
+
+		JRE System Library
+		src (Java File)
+
+	Package name
+		1. Camel Convention (First letter of first word should be in lower case, but the 
+		first letter of other words are in upper case)
+		2. Should not allow any spaces between the words
+		3. Should not allow any special charatcers
+
+		Eg: firstJavaPackage
+
+		Package, Method, Variable
+
+	Class name
+
+
+package firstJavaPackage;
+
+public class FirstJavaClass {
+
+	// Block
+
+	// Strongly typed language - Define the data type during the writing itself
+
+	// Datatype variablename = value;
+
+	public static void main(String[] args) {
+
+		byte age = 29; // DT var = data
+
+		String name = "Dinesh";
+
+		boolean isMarried = true;
+
+		double salary = 20.5;
+
+		System.out.println("Oranium Tech"); // To print the given value.
+
+		System.out.println(name);
+		System.out.println(age);
+		System.out.println(isMarried);
+		System.out.println(salary);
+
+		short var = 128;
+
+		System.out.println(var);
+
+		float var2 = 14.56f;
+
+		System.out.println(var2);
+
+		double f = 14.6767778786789963738;
+
+		System.out.println(f);
+
+		char v = '/';
+
+		System.out.println(v);
+
+	}
+
+}
